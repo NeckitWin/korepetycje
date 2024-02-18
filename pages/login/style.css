@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+  }
+
+.main-color {
+  color: rgb(0, 119, 181);
+}
+
+.accent-color {
+  color: rgb(245, 245, 245);
+}
+
+.background-color {
+  color: #fff;
+}
+
+.text-color {
+  color: #333;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.6em;
+    margin-bottom: 0;
+  }
+
+  header {
+    background-color: rgb(0, 119, 181);
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header .logo {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+    header .logo img {
+        max-width: 300px;
+    }
+  
+  header h1 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 2em;
+  }
+  
+  header p {
+    font-size: 1.5em;
+    margin-bottom: 0;
+  }
+
+  .banner {
+    background-image: url("https://www.zsti.gliwice.pl/static/thumbnail/slider/desktop/3950.jpg");
+    background-size: cover;
+    background-position: 0 -480px;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  
+  .banner a {
+    display: block;
+    height: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: #333;
+    font-size: 2em;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .benefits {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .benefits ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .benefits ul li {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .benefits ul li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .benefits ul li img {
+    margin-bottom: 10px;
+    display: block;
+    max-width: 100px;
+  }
+  
+  .benefits ul li h3 {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+  }
+  
+  .benefits ul li p {
+    font-size: 1.4em;
+    margin-bottom: 0;
+  }
+
+  .how-to-start {
+    padding: 40px 0;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+  }
+  
+  .how-to-start ol {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .how-to-start ol li {
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .how-to-start ol li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .how-to-start ol li img {
+    margin-right: 10px;
+    max-width: 70px;
+  }
+  
+  .how-to-start ol li h3 {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+  }
+  
+  .how-to-start ol li p {
+    font-size: 1.4em;
+    margin-bottom: 0;
+  }
+  
+  .subjects {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .subjects ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .subjects ul li {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .subjects ul li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .subjects ul li a {
+    color: #333;
+    font-size: 1.6em;
+    text-decoration: none;
+  }
+  
+  .contacts {
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .contacts ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .contacts ul li {
+    margin: 10px;
+    padding: 20px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 300px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contacts ul li:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contacts ul li a {
+    color: #333;
+    font-size: 1.6em;
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: rgb(0, 119, 181);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+
+.login {
+    text-align: center;
+    padding: 40px 0;
+  }
+  
+  .login h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .login form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .login form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .login form button {
+    background-color: rgb(0, 119, 181);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.6em;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .login form button:hover {
+    background-color: rgb(0, 101, 154);
+  }
+  
+  .login p {
+    margin-top: 10px;
+  }
+  
+  .login a {
+    color: rgb(0, 119, 181);
+    text-decoration: none;
+  }
