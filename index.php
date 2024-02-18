@@ -16,7 +16,9 @@
     <p>Wspieramy uczniów, ucząc się od siebie nawzajem!</p>
   </header>
   <main>
-    <section class="banner"></section>
+    <section class="banner">
+        <a href="pages/login/">Wejść do profilu</a>
+    </section>
     <section class="benefits">
       <h2>Dlaczego warto wybrać ZSTI Korepetycje?</h2>
       <ul>
