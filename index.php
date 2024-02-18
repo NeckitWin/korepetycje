@@ -9,11 +9,13 @@
 </head>
 <body>
   <header>
-    <div class="logo">
-      <img src="img/logo.svg" alt="ZSTI Korepetycje">
-    </div>
-    <h1>ZSTI Korepetycje</h1>
-    <p>Wspieramy uczniów, ucząc się od siebie nawzajem!</p>
+    <a href="index.php">
+      <div class="logo">
+        <img src="img/logo.svg" alt="ZSTI Korepetycje">
+      </div>
+      </a>
+      <h1>ZSTI Korepetycje</h1>
+      <p>Wspieramy uczniów, ucząc się od siebie nawzajem!</p>
   </header>
   <main>
     <section class="banner">
@@ -84,9 +86,9 @@
     <section class="contacts">
       <h2>Kontakt</h2>
       <ul>
-        <li><a href="#">Napisz do nas</a></li>
-        <li><a href="#">Znajdź nas na Facebooku</a></li>
-        <li><a href="#">Dołącz do nas na Instagramie</a></li>
+        <li><a href="https://www.zsti.gliwice.pl/">Napisz do nas</a></li>
+        <li><a href="https://www.facebook.com/zsti.gliwice/">Znajdź nas na Facebooku</a></li>
+        <li><a href="https://www.instagram.com/zstigliwice/">Dołącz do nas na Instagramie</a></li>
       </ul>
     </section>
   </main>

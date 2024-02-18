@@ -9,9 +9,11 @@
 </head>
 <body>
   <header>
+    <a href="../../index.php">
     <div class="logo">
       <img src="../../img/logo.svg" alt="ZSTI Korepetycje">
     </div>
+    </a>
     <h1>ZSTI Korepetycje</h1>
     <p>Wspieramy uczniów, ucząc się od siebie nawzajem!</p>
   </header>
