@@ -31,6 +31,8 @@
     </section>
   </main>
   <footer>
+
+  test
     <p>&copy; 2024 ZSTI Korepetycje</p>
   </footer>
 </body>
