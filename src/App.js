@@ -5,6 +5,7 @@ import {useState} from "react";
 function App() {
     const [links] = useState([
         {component: "Main", path: "/"},
+        {component: "Main", path: "/korepetycje"},
         ])
 
     return (

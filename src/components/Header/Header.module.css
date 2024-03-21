@@ -33,6 +33,11 @@
     background-size: cover;
     border-radius: 50%;
 }
+
+.header h3:last-child {
+    letter-spacing: 10px;
+}
+
 .header h3 a:hover, .header h3:hover {
     color: white;
 }
