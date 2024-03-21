@@ -1,10 +1,10 @@
 import s from './Main.module.css';
+import Description from "./Description";
 
 const Main = () => {
     return (
         <div className={s.main}>
-            <h1>Main</h1>
-            <p>Some text</p>
+            <Description />
         </div>
     )
 }

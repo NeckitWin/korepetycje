@@ -1,0 +1,37 @@
+.frame {
+    width: 100%;
+    background-color: #000814;
+}
+
+.description {
+    color: #FFC300;
+    max-width: 1000px;
+    padding: 100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+
+.description h2 {
+    font-size: 48px;
+    line-height: 1.2em;
+}
+.description h3 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+@media (max-width: 768px) {
+    .description {
+        grid-template-columns: 1fr;
+        padding: 10px 20px;
+        gap: 10px;
+    }
+    .description h2 {
+        font-size: 32px;
+    }
+    .description h3 {
+        font-size: 20px;
+    }
+}
